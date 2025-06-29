@@ -47,121 +47,96 @@ const fontConfig = {
 };
 
 // ========================================
-// CUSTOMIZE YOUR COLORS HERE
+// CUSTOMIZE YOUR COLORS 
+// https://callstack.github.io/react-native-paper/docs/guides/theming
 // ========================================
 
 // Light theme colors
 export const lightColors = {
-  // Primary colors
-  primary: "rgb(0, 107, 94)",
+  primary: "rgb(71, 85, 182)",
   onPrimary: "rgb(255, 255, 255)",
-  primaryContainer: "rgb(118, 248, 226)",
-  onPrimaryContainer: "rgb(0, 32, 27)",
-  
-  // Secondary colors
-  secondary: "rgb(74, 99, 94)",
+  primaryContainer: "rgb(223, 224, 255)",
+  onPrimaryContainer: "rgb(0, 13, 95)",
+  secondary: "rgb(91, 93, 114)",
   onSecondary: "rgb(255, 255, 255)",
-  secondaryContainer: "rgb(205, 232, 225)",
-  onSecondaryContainer: "rgb(6, 32, 27)",
-  
-  // Tertiary colors
-  tertiary: "rgb(68, 97, 121)",
+  secondaryContainer: "rgb(224, 225, 249)",
+  onSecondaryContainer: "rgb(24, 26, 44)",
+  tertiary: "rgb(119, 83, 108)",
   onTertiary: "rgb(255, 255, 255)",
-  tertiaryContainer: "rgb(202, 230, 255)",
-  onTertiaryContainer: "rgb(0, 30, 48)",
-  
-  // Error colors
+  tertiaryContainer: "rgb(255, 215, 240)",
+  onTertiaryContainer: "rgb(45, 18, 39)",
   error: "rgb(186, 26, 26)",
   onError: "rgb(255, 255, 255)",
   errorContainer: "rgb(255, 218, 214)",
   onErrorContainer: "rgb(65, 0, 2)",
-  
-  // Background and surface colors
-  background: "rgb(250, 253, 251)",
-  onBackground: "rgb(25, 28, 27)",
-  surface: "rgb(250, 253, 251)",
-  onSurface: "rgb(25, 28, 27)",
-  surfaceVariant: "rgb(218, 229, 225)",
-  onSurfaceVariant: "rgb(63, 73, 70)",
-  
-  // Outline colors
-  outline: "rgb(111, 121, 118)",
-  outlineVariant: "rgb(190, 201, 197)",
-  
-  // Additional colors
+  background: "rgb(255, 251, 255)",
+  onBackground: "rgb(27, 27, 31)",
+  surface: "rgb(255, 251, 255)",
+  onSurface: "rgb(27, 27, 31)",
+  surfaceVariant: "rgb(227, 225, 236)",
+  onSurfaceVariant: "rgb(70, 70, 79)",
+  outline: "rgb(118, 118, 128)",
+  outlineVariant: "rgb(199, 197, 208)",
   shadow: "rgb(0, 0, 0)",
   scrim: "rgb(0, 0, 0)",
-  inverseSurface: "rgb(45, 49, 48)",
-  inverseOnSurface: "rgb(239, 241, 239)",
-  inversePrimary: "rgb(85, 219, 198)",
+  inverseSurface: "rgb(48, 48, 52)",
+  inverseOnSurface: "rgb(243, 240, 244)",
+  inversePrimary: "rgb(187, 195, 255)",
   elevation: {
     level0: "transparent",
-    level1: "rgb(238, 246, 243)",
-    level2: "rgb(230, 241, 238)",
-    level3: "rgb(223, 237, 234)",
-    level4: "rgb(220, 236, 232)",
-    level5: "rgb(215, 233, 229)",
+    level1: "rgb(246, 243, 251)",
+    level2: "rgb(240, 238, 249)",
+    level3: "rgb(235, 233, 247)",
+    level4: "rgb(233, 231, 246)",
+    level5: "rgb(229, 228, 245)"
   },
-  surfaceDisabled: "rgba(25, 28, 27, 0.12)",
-  onSurfaceDisabled: "rgba(25, 28, 27, 0.38)",
-  backdrop: "rgba(41, 50, 48, 0.4)",
+  surfaceDisabled: "rgba(27, 27, 31, 0.12)",
+  onSurfaceDisabled: "rgba(27, 27, 31, 0.38)",
+  backdrop: "rgba(47, 48, 56, 0.4)"
 };
 
-// Dark theme colors
+// Dark theme colors 
 export const darkColors = {
-  // Primary colors
-  primary: "rgb(85, 219, 198)",
-  onPrimary: "rgb(0, 55, 48)",
-  primaryContainer: "rgb(0, 79, 70)",
-  onPrimaryContainer: "rgb(118, 248, 226)",
-  
-  // Secondary colors
-  secondary: "rgb(177, 204, 197)",
-  onSecondary: "rgb(26, 53, 47)",
-  secondaryContainer: "rgb(48, 75, 69)",
-  onSecondaryContainer: "rgb(205, 232, 225)",
-  
-  // Tertiary colors
-  tertiary: "rgb(175, 203, 227)",
-  onTertiary: "rgb(0, 51, 73)",
-  tertiaryContainer: "rgb(0, 73, 103)",
-  onTertiaryContainer: "rgb(202, 230, 255)",
-  
-  // Error colors
+  primary: "rgb(187, 195, 255)",
+  onPrimary: "rgb(17, 34, 134)",
+  primaryContainer: "rgb(45, 60, 156)",
+  onPrimaryContainer: "rgb(223, 224, 255)",
+  secondary: "rgb(196, 197, 221)",
+  onSecondary: "rgb(45, 47, 66)",
+  secondaryContainer: "rgb(67, 69, 89)",
+  onSecondaryContainer: "rgb(224, 225, 249)",
+  tertiary: "rgb(230, 186, 215)",
+  onTertiary: "rgb(69, 38, 61)",
+  tertiaryContainer: "rgb(93, 60, 84)",
+  onTertiaryContainer: "rgb(255, 215, 240)",
   error: "rgb(255, 180, 171)",
   onError: "rgb(105, 0, 5)",
   errorContainer: "rgb(147, 0, 10)",
-  onErrorContainer: "rgb(255, 218, 214)",
-  
-  // Background and surface colors
-  background: "rgb(25, 28, 27)",
-  onBackground: "rgb(224, 227, 225)",
-  surface: "rgb(25, 28, 27)",
-  onSurface: "rgb(224, 227, 225)",
-  surfaceVariant: "rgb(63, 73, 70)",
-  onSurfaceVariant: "rgb(190, 201, 197)",
-  
-  // Outline colors
-  outline: "rgb(134, 144, 140)",
-  outlineVariant: "rgb(63, 73, 70)",
-  
-  // Additional colors
+  onErrorContainer: "rgb(255, 180, 171)",
+  background: "rgb(27, 27, 31)",
+  onBackground: "rgb(228, 225, 230)",
+  surface: "rgb(27, 27, 31)",
+  onSurface: "rgb(228, 225, 230)",
+  surfaceVariant: "rgb(70, 70, 79)",
+  onSurfaceVariant: "rgb(199, 197, 208)",
+  outline: "rgb(144, 144, 154)",
+  outlineVariant: "rgb(70, 70, 79)",
   shadow: "rgb(0, 0, 0)",
   scrim: "rgb(0, 0, 0)",
-  inverseSurface: "rgb(224, 227, 225)",
-  inverseOnSurface: "rgb(45, 49, 48)",
-  inversePrimary: "rgb(0, 107, 94)",
+  inverseSurface: "rgb(228, 225, 230)",
+  inverseOnSurface: "rgb(48, 48, 52)",
+  inversePrimary: "rgb(71, 85, 182)",
   elevation: {
     level0: "transparent",
-    level1: "rgb(35, 38, 37)",
-    level2: "rgb(40, 43, 42)",
-    level3: "rgb(45, 48, 47)",
-    level4: "rgb(47, 50, 49)",
-    level5: "rgb(50, 53, 52)",
+    level1: "rgb(35, 35, 42)",
+    level2: "rgb(40, 40, 49)",
+    level3: "rgb(45, 46, 56)",
+    level4: "rgb(46, 47, 58)",
+    level5: "rgb(49, 51, 62)"
   },
-  surfaceDisabled: "rgba(224, 227, 225, 0.12)",
-  onSurfaceDisabled: "rgba(224, 227, 225, 0.38)",
-  backdrop: "rgba(41, 50, 48, 0.4)",
+  surfaceDisabled: "rgba(228, 225, 230, 0.12)",
+  onSurfaceDisabled: "rgba(228, 225, 230, 0.38)",
+  backdrop: "rgba(47, 48, 56, 0.4)"
 };
 
 // ========================================
